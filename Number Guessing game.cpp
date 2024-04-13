@@ -17,7 +17,7 @@ int main()
         cout<<"Enter a NUMBER : ";
         while(!(cin>>guess))
         {
-            cout<<"wrong input"<<endl;
+            cout<<"Wrong input \nNo worries try again :";
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(),'\n');
         }
