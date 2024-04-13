@@ -5,12 +5,12 @@
 
 using namespace std;
 //FUNCTION TO BE USED.
-int GenerateNUmber();
+int GenerateNumber();
 
 int main()
 {
     int guess;
-    int randomNumber = GenerateNUmber();
+    int randomNumber = GenerateNumber();
     cout<<"------------Welcome to Guess number game------------"<<"\n\n\n";
     do
     {
@@ -47,7 +47,7 @@ int main()
     return 0;
 }
 //Function for generating random number between 0-10.
-int GenerateNUmber()
+int GenerateNumber()
 {
     int generate;
     
